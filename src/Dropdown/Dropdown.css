@@ -1,0 +1,33 @@
+.Dropdown {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 400px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.Dropdown__menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 20px 0px;
+  text-align: center;
+  background-color: teal;
+  color: white;
+  outline: 1px solid black;
+}
+
+.Dropdown__togle {
+  text-align: center;
+  width: 100px;
+  height: 30px;
+  color: teal;
+  background-color: bisque;
+  font-size: 20px;
+}
+.Dropdown__togle:hover {
+  color: #ffffff;
+  background-color: teal;
+}
