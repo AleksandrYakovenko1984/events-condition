@@ -1,0 +1,6 @@
+[
+      { "id": "id-1", "text": "выучить основы реакт", "completed": true },
+      { "id": "id-2", "text": "разобраться с реакт роутер", "completed": false },
+      { "id": "id-3", "text": "пережить редакс", "completed": false }
+      
+    ]

@@ -20,15 +20,14 @@ class Dropdown extends Component {
   //     this.setState({visible: false})
   // }
   render() {
+    const { visible } = this.state;
     return (
       <div className="Dropdown">
         <button type="button" onClick={this.toggle} className="Dropdown__togle">
           {this.state.visible ? "скрыть" : "показать"}
         </button>
 
-        {this.state.visible && (
-          <div className="Dropdown__menu">выпадающее меню</div>
-        )}
+        {visible && <div className="Dropdown__menu">выпадающее меню</div>}
       </div>
     );
   }
